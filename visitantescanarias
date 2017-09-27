@@ -1,0 +1,60 @@
+<html>
+<?php
+$visitantes = array (
+    array(
+        'nombre' => 'Gran Canaria',
+        'enero' => '100',
+        'febrero' => '100',
+        'marzo' => '100',
+        'abril' => '100',
+        'mayo' => '100',
+        'junio' => '100',
+        'enero' => '100',
+        'enero' => '100',
+
+    ),
+    array(
+        'nombre' => 'Tenerife',
+        'enero' => '100',
+        'enero' => '100',
+        'enero' => '100',
+        'enero' => '100',
+        'enero' => '100',
+        'enero' => '100',
+        'enero' => '100',
+        'enero' => '100',
+    ),
+    array(
+        'nombre' => 'Fuerteventura',
+        'enero' => '100',
+        'enero' => '100',
+        'enero' => '100',
+        'enero' => '100',
+        'enero' => '100',
+        'enero' => '100',
+        'enero' => '100',
+        'enero' => '100',
+    ),
+    array(
+        'nombre' => 'Neymar',
+        'equipo' => 'Santos'
+    ),
+);
+
+
+?>
+<head>
+		<title>Estadística de Visitantes a Canarias</title>
+	</head>
+	<body>
+	<?php
+	for ($fila=0; $fila<=count($empleados)-1; $fila++) {
+ 
+    for($col=0; $col<=count($empleados[$fila])-1; $col++)
+        echo $empleados[$fila][$col].' - ';
+ 
+    echo '<br />';
+    ?>
+}
+</body>
+</html>
